@@ -9,6 +9,12 @@ modules:
     prober: https
     https:
       proxy_url: "socks5://localhost:8123"
+  tds:
+    prober: tds
+  tds_server_auth:
+    prober: tds
+    tls_config:
+      ca_file: /etc/tls/ca.crt
   tcp:
     prober: tcp
   tcp_servername:

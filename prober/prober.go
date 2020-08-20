@@ -13,6 +13,7 @@ var (
 		"https": ProbeHTTPS,
 		"http":  ProbeHTTPS,
 		"tcp":   ProbeTCP,
+		"tds":   ProbeTDS,
 	}
 )
 

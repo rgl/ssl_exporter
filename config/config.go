@@ -15,6 +15,9 @@ var (
 			"tcp": Module{
 				Prober: "tcp",
 			},
+			"tds": Module{
+				Prober: "tds",
+			},
 			"http": Module{
 				Prober: "https",
 			},

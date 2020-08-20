@@ -1,5 +1,7 @@
 module github.com/ribbybibby/ssl_exporter
 
+replace github.com/denisenkom/go-mssqldb => github.com/rgl/dump-sql-server-certificate-chain-go-mssqldb v0.0.0-20200817180720-ba140bec3a68
+
 require (
 	github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
@@ -16,6 +18,7 @@ require (
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
+	github.com/denisenkom/go-mssqldb v0.0.0-00010101000000-000000000000
 )
 
 go 1.14
